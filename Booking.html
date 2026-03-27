@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Airline Ticket Booking</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Book a Flight Ticket</h1>
+
+        <!-- Flight Booking Form -->
+        <form id="booking-form">
+            <div class="form-group">
+                <label for="starting-point">Starting Point</label>
+                <select id="starting-point" required>
+                    <option value="">Select Starting Point</option>
+                    <option value="New York">New York</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Miami">Miami</option>
+                    <option value="San Francisco">San Francisco</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="destination">Destination</label>
+                <select id="destination" required>
+                    <option value="">Select Destination</option>
+                    <option value="New York">New York</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Miami">Miami</option>
+                    <option value="San Francisco">San Francisco</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" required>
+            </div>
+
+            <button type="submit" class="submit-btn">Search Flights</button>
+        </form>
+
+        <!-- Flight Options -->
+        <div id="flight-options" class="hidden">
+            <h2>Available Flight Options</h2>
+            <div id="options-list"></div>
+        </div>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>

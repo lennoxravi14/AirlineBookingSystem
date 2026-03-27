@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flight Status Check</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Check Flight Status</h1>
+
+        <!-- Flight Status Form -->
+        <form id="status-form">
+            <div class="form-group">
+                <label for="flight-number">Flight Number</label>
+                <input type="text" id="flight-number" required placeholder="Enter Flight Number">
+            </div>
+
+            <button type="submit" class="submit-btn">Check Status</button>
+        </form>
+
+        <!-- Flight Status Result -->
+        <div id="status-result" class="hidden">
+            <h2>Flight Status</h2>
+            <p><strong>Flight Number:</strong> <span id="status-flight-number"></span></p> </br>
+            <p><strong>Today:</strong> <span id="status-message1"></span></p>
+	    <p><strong>Yesterday:</strong> <span id="status-message2"></span></p>
+            <p><strong>Day Before Yesterday:</strong> <span id="status-message3"></span></p> </br>
+	    <p><strong>Delay Probability:</strong> <span id="prob"></span>%</p>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>

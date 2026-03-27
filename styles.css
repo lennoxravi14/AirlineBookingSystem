@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Garamond, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url('a380-A380-flying.webp');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color : rgb(43,31,0);
+    padding: 30px;
+    border-radius: 8px;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(255,225,138);
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-color : rgb(132,97,0);
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: Garamond, serif;
+}
+
+.tab-btn:hover {
+    background-color: rgb(255,0,0);
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

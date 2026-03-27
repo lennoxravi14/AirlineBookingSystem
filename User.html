@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Check Booked Flights</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Check Your Booked Flights</h1>
+
+        <!-- User ID Form -->
+        <form id="user-id-form">
+            <div class="form-group">
+                <label for="user-id">User ID</label>
+                <input type="text" id="user-id" required placeholder="Enter Your User ID">
+            </div>
+
+            <button type="submit" class="submit-btn">Check Booked Flights</button>
+        </form>
+
+        <!-- Booked Flights List -->
+        <div id="flights-list" class="hidden">
+            <h2>Your Booked Flights</h2>
+            <div id="flights-content"></div>
+        </div>
+    </div>
+
+    <script src="script3.js"></script>
+</body>
+</html>
